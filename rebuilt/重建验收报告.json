@@ -1,0 +1,77 @@
+{
+  "schema_version": 3,
+  "generated_at": "2026-11-06T16:15:50",
+  "companies_expected": 10,
+  "companies_processed": 4,
+  "tables": 325,
+  "table_row_chunks": 2577,
+  "summary_by_company": [
+    {
+      "company": "贵州茅台",
+      "pages": 143,
+      "text_chunks": 466,
+      "table_row_chunks": 746,
+      "table_count": 86,
+      "section_unknown": 1,
+      "pdf_sha256": "474905deeaf0f875fc0a1b097a626c0c7852c427faadc5d7fc7816cbf45ea288",
+      "source_status": "local"
+    },
+    {
+      "company": "泸州老窖",
+      "pages": 183,
+      "text_chunks": 694,
+      "table_row_chunks": 678,
+      "table_count": 86,
+      "section_unknown": 1,
+      "pdf_sha256": "7a2e321f049401fd34dfbf8c22964e804d16f077ece9382791cb2b2ce0c74676",
+      "source_status": "downloaded"
+    },
+    {
+      "company": "今世缘",
+      "pages": 166,
+      "text_chunks": 540,
+      "table_row_chunks": 720,
+      "table_count": 90,
+      "section_unknown": 1,
+      "pdf_sha256": "837871f1ce9300beec0e3de41a72ba5439f53acf8193ae7927e5901baf24db5f",
+      "source_status": "downloaded"
+    },
+    {
+      "company": "口子窖",
+      "pages": 218,
+      "text_chunks": 511,
+      "table_row_chunks": 433,
+      "table_count": 63,
+      "section_unknown": 1,
+      "pdf_sha256": "9b1d7688b2467ea3b890cee8385f1dadf3a3a8b13d7d45644b297bf51d10d407",
+      "source_status": "local"
+    }
+  ],
+  "missing": [
+    {
+      "company": "五粮液",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    },
+    {
+      "company": "山西汾酒",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    },
+    {
+      "company": "洋河股份",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    },
+    {
+      "company": "古井贡酒",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    },
+    {
+      "company": "舍得酒业",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    },
+    {
+      "company": "金徽酒",
+      "status": "尚无成功的原始PDF行列重建产物；详见各公司运行日志"
+    }
+  ],
+  "note": "逐公司子进程真实解析PDF；解析失败或下载缺失不计入成功，不用推测值填充；原始全量数据不自动覆盖旧知识库。"
+}
