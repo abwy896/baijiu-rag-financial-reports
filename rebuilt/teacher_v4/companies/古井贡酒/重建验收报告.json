@@ -1,0 +1,91 @@
+{
+  "company": "古井贡酒",
+  "requested_pages": [
+    8,
+    10,
+    12,
+    14,
+    63,
+    140,
+    167
+  ],
+  "source_pdf": "D:\\复旦研一\\修复版作业\\作业3_白酒财报RAG_全新重建版\\data\\pdfs\\古井贡酒_2025年年度报告.pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225237594.PDF",
+  "correction_url": "",
+  "source_status": "local",
+  "pages": [
+    {
+      "page": 8,
+      "table_rows": 3,
+      "text_chunks": 2,
+      "section": "九、非经常性损益项目及金额",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 10,
+      "table_rows": 7,
+      "text_chunks": 3,
+      "section": "2、按照区域分类经销商数量",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 12,
+      "table_rows": 0,
+      "text_chunks": 3,
+      "section": "2.公司所处行业地位",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 14,
+      "table_rows": 16,
+      "text_chunks": 4,
+      "section": "2、收入与成本",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 63,
+      "table_rows": 23,
+      "text_chunks": 5,
+      "section": "1.重新计量设定受益计划变动",
+      "section_method": "page_text",
+      "status": "table_worker_fallback_text"
+    },
+    {
+      "page": 140,
+      "table_rows": 8,
+      "text_chunks": 3,
+      "section": "37.营业收入和营业成本",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 167,
+      "table_rows": 2,
+      "text_chunks": 1,
+      "section": "3.境内外会计准则下会计数据差异",
+      "section_method": "page_text",
+      "status": "parsed"
+    }
+  ],
+  "limitations": [
+    "仅重建10题实际召回涉及的PDF物理页，其他页面未覆盖",
+    "自动提取candidate不能视为已人工验证；空白和无法识别字段不推测"
+  ],
+  "pdf_sha256": "8f92fefd5feca4d22da968c629a04f918142b2097ae9392b403988c2b25e7644",
+  "pdf_page_count": 167,
+  "corrected_version_status": "not_applicable",
+  "status": "built_candidates_pending_review",
+  "text_chunks": 21,
+  "table_row_chunks": 59,
+  "pages_processed": 7,
+  "issues": [
+    {
+      "page": 12,
+      "reason": "no_table_row_candidate"
+    }
+  ]
+}
