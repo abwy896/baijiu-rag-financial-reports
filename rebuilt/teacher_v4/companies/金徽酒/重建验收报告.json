@@ -1,0 +1,68 @@
+{
+  "company": "金徽酒",
+  "requested_pages": [
+    2,
+    9,
+    17,
+    36
+  ],
+  "source_pdf": "D:\\复旦研一\\修复版作业\\作业3_白酒财报RAG_全新重建版\\data\\pdfs\\金徽酒_2025年年度报告.pdf",
+  "source_url": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=603919",
+  "correction_url": "https://www.cfi.net.cn/p20261027004083.html",
+  "source_status": "local",
+  "pages": [
+    {
+      "page": 2,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "五、董事会决议通过的本报告期利润分配预案或公积金转增股本预案",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 9,
+      "table_rows": 3,
+      "text_chunks": 2,
+      "section": "八、境内外会计准则下会计数据差异",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 17,
+      "table_rows": 9,
+      "text_chunks": 3,
+      "section": "1、利润表及现金流量表相关科目变动分析表",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 36,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "六、公司关于公司未来发展的讨论与分析",
+      "section_method": "page_text",
+      "status": "parsed"
+    }
+  ],
+  "limitations": [
+    "仅重建10题实际召回涉及的PDF物理页，其他页面未覆盖",
+    "自动提取candidate不能视为已人工验证；空白和无法识别字段不推测"
+  ],
+  "pdf_sha256": "8129d12fa8f537cafe45fde09fdc47e72e0a88049f644652d86afd04fce5a9bd",
+  "pdf_page_count": 225,
+  "corrected_version_status": "unverified_corrected_version",
+  "status": "built_candidates_pending_review",
+  "text_chunks": 9,
+  "table_row_chunks": 12,
+  "pages_processed": 4,
+  "issues": [
+    {
+      "page": 2,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 36,
+      "reason": "no_table_row_candidate"
+    }
+  ]
+}
