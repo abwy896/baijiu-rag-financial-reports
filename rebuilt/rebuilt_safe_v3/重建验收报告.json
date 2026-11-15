@@ -1,0 +1,109 @@
+{
+  "schema_version": 4,
+  "company": "洋河股份",
+  "report": "2025年年度报告",
+  "source_pdf": "洋河股份_2025年年度报告.pdf",
+  "pdf_sha256": "10af27149ab8b7b5f7a5678b76ada3bc1d422bc068a9fd52f5c1b253f610032c",
+  "derived_from": "data/rebuilt_safe_v2/2025重建全量知识块.jsonl",
+  "method": "pdf_vector_grid_words; inherited headers only from observed original page 67 and 69",
+  "repaired_pdf_pages": [
+    67,
+    68,
+    69,
+    70
+  ],
+  "recovered_native_crash_pages": [
+    68,
+    70
+  ],
+  "remaining_native_table_fallback_pages": [
+    74,
+    77,
+    80,
+    83,
+    141
+  ],
+  "logical_tables": [
+    {
+      "title": "3、合并利润表",
+      "table_id": "洋河股份_PDF067_PROFIT_CONSOLIDATED",
+      "start_page": 67,
+      "covered_pages": [
+        67,
+        68,
+        69
+      ],
+      "data_rows": 66
+    },
+    {
+      "title": "4、母公司利润表",
+      "table_id": "洋河股份_PDF069_PROFIT_PARENT",
+      "start_page": 69,
+      "covered_pages": [
+        69,
+        70
+      ],
+      "data_rows": 35
+    }
+  ],
+  "source_assertions_passed": [
+    {
+      "pdf_page": 68,
+      "table": "3、合并利润表",
+      "row": "二、营业总成本",
+      "cells": [
+        "15,729,399,843.33",
+        "19,512,180,569.56"
+      ]
+    },
+    {
+      "pdf_page": 68,
+      "table": "3、合并利润表",
+      "row": "销售费用",
+      "cells": [
+        "5,205,631,990.16",
+        "5,516,238,544.79"
+      ]
+    },
+    {
+      "pdf_page": 68,
+      "table": "3、合并利润表",
+      "row": "利息支出",
+      "cells": [
+        "",
+        ""
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "table": "3、合并利润表",
+      "row": "1.归属于母公司股东的净利润",
+      "cells": [
+        "2,206,058,926.68",
+        "6,673,388,602.12"
+      ]
+    },
+    {
+      "pdf_page": 70,
+      "table": "4、母公司利润表",
+      "row": "管理费用",
+      "cells": [
+        "820,989,583.94",
+        "1,020,972,213.60"
+      ]
+    }
+  ],
+  "old_table_chunks_replaced_on_pages_67_70": 6,
+  "text_chunks_section_corrected_on_pages_68_70": 9,
+  "new_table_rows": 101,
+  "result_table_rows": 548,
+  "result_text_chunks": 583,
+  "needs_review_rows": 548,
+  "status": "partial_needs_manual_review",
+  "limitations": [
+    "仅用原始PDF真实矢量表格线和文字位置重建67至70页，不改动其他未识别页。",
+    "所有自动行是候选结果，仍需对照原始PDF人工核验；空格保留空白，未编造数值。",
+    "剩余降级页的复杂宽表需要独立处理，不能称为全报告修复。",
+    "本工具不修改旧data/rebuilt_safe_v2、不自动合并默认all_chunks。"
+  ]
+}
