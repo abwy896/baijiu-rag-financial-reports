@@ -1,0 +1,103 @@
+{
+  "company": "舍得酒业",
+  "requested_pages": [
+    2,
+    9,
+    10,
+    13,
+    17,
+    66,
+    189
+  ],
+  "source_pdf": "D:\\复旦研一\\修复版作业\\作业3_白酒财报RAG_全新重建版\\data\\pdfs\\舍得酒业_2025年年度报告.pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225022707.PDF",
+  "correction_url": "",
+  "source_status": "local",
+  "pages": [
+    {
+      "page": 2,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "八、 是否存在违反规定决策程序对外提供担保的情况",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 9,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "二、报告期内公司所处行业情况",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 10,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "三、经营情况讨论与分析",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 13,
+      "table_rows": 17,
+      "text_chunks": 5,
+      "section": "主营业务分销售模式情况",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 17,
+      "table_rows": 18,
+      "text_chunks": 8,
+      "section": "1、资产及负债状况",
+      "section_method": "pdf_bookmark",
+      "status": "parsed"
+    },
+    {
+      "page": 66,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "如财务报表“附注四、27 收入”以及“附注六、41 营业收入和营业成本”所述，舍得酒业的营业",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 189,
+      "table_rows": 2,
+      "text_chunks": 1,
+      "section": "4、其他",
+      "section_method": "page_text",
+      "status": "parsed"
+    }
+  ],
+  "limitations": [
+    "仅重建10题实际召回涉及的PDF物理页，其他页面未覆盖",
+    "自动提取candidate不能视为已人工验证；空白和无法识别字段不推测"
+  ],
+  "pdf_sha256": "ec55850d5fc0a873bbb285efd23d7b046b993fa9a7da19204ee534f736fec545",
+  "pdf_page_count": 189,
+  "corrected_version_status": "not_applicable",
+  "status": "built_candidates_pending_review",
+  "text_chunks": 22,
+  "table_row_chunks": 37,
+  "pages_processed": 7,
+  "issues": [
+    {
+      "page": 2,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 9,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 10,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 66,
+      "reason": "no_table_row_candidate"
+    }
+  ]
+}
