@@ -1,0 +1,117 @@
+{
+  "company": "山西汾酒",
+  "requested_pages": [
+    6,
+    10,
+    12,
+    16,
+    20,
+    46,
+    83,
+    167,
+    169
+  ],
+  "source_pdf": "D:\\复旦研一\\修复版作业\\作业3_白酒财报RAG_全新重建版\\data\\pdfs\\山西汾酒_2025年年度报告.pdf",
+  "source_url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225156714.PDF",
+  "correction_url": "",
+  "source_status": "local",
+  "pages": [
+    {
+      "page": 6,
+      "table_rows": 6,
+      "text_chunks": 3,
+      "section": "十、非经常性损益项目和金额",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 10,
+      "table_rows": 5,
+      "text_chunks": 3,
+      "section": "主营业务分行业、分产品、分地区、分销售模式情况的说明",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 12,
+      "table_rows": 4,
+      "text_chunks": 2,
+      "section": "4、研发投入",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 16,
+      "table_rows": 4,
+      "text_chunks": 3,
+      "section": "按产品档次",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 20,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "2.市场破局与品牌焕新，锻造核心增长引擎",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 46,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "2、审计应对",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 83,
+      "table_rows": 0,
+      "text_chunks": 2,
+      "section": "36、政府补助",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 167,
+      "table_rows": 7,
+      "text_chunks": 2,
+      "section": "(2). 营业收入、营业成本的分解信息",
+      "section_method": "page_text",
+      "status": "parsed"
+    },
+    {
+      "page": 169,
+      "table_rows": 2,
+      "text_chunks": 2,
+      "section": "4、其他",
+      "section_method": "page_text",
+      "status": "parsed"
+    }
+  ],
+  "limitations": [
+    "仅重建10题实际召回涉及的PDF物理页，其他页面未覆盖",
+    "自动提取candidate不能视为已人工验证；空白和无法识别字段不推测"
+  ],
+  "pdf_sha256": "f824fbe77c0bf415d14b55fe951cc9fa27e326d700535d70e03a4ee009d47e6a",
+  "pdf_page_count": 169,
+  "corrected_version_status": "not_applicable",
+  "status": "built_candidates_pending_review",
+  "text_chunks": 21,
+  "table_row_chunks": 28,
+  "pages_processed": 9,
+  "issues": [
+    {
+      "page": 20,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 46,
+      "reason": "no_table_row_candidate"
+    },
+    {
+      "page": 83,
+      "reason": "no_table_row_candidate"
+    }
+  ]
+}
